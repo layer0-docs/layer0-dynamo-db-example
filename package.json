@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "name": "dynamo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1020.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "@layer0/cli": "^4.2.0",
+    "@layer0/core": "^4.2.0",
+    "@layer0/devtools": "^4.2.0",
+    "@layer0/prefetch": "^4.2.0"
+  }
+}
